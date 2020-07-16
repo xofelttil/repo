@@ -1,0 +1,24 @@
+server:
+   port: 9090
+   undertow:
+      io-threads: 16
+      worker-threads: 256
+      buffer-size: 1024
+      buffers-per-region: 1024
+      direct-buffers: true
+      accesslog: 
+            dir: log/access/
+            enabled: true
+            pattern:  "%h %l %u %s %b %D %t \"%r\" \"%{i,Referer}\" \"%{i,User-Agent}\""     
+            prefix: ibike_access
+            suffix: .log
+            rotate: true
+      
+logging:
+   level.root: info
+   level.org.springframework: info
+   level.com.yc: info
+   file: yc74bike.log
+    
+swagger: 
+   enabled: true 

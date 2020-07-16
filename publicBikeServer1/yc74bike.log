@@ -1,0 +1,82 @@
+2020-07-14 21:10:48.978  INFO 55444 --- [restartedMain] com.yc.Application                       : Starting Application on DELKVVV396OXZU3 with PID 55444 (G:\Users\Administrator\workspace\publicBikeServer1\target\classes started by Administrator in G:\Users\Administrator\workspace\publicBikeServer1)
+2020-07-14 21:10:48.984  INFO 55444 --- [restartedMain] com.yc.Application                       : No active profile set, falling back to default profiles: default
+2020-07-14 21:10:49.058  INFO 55444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-14 21:10:49.058  INFO 55444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-14 21:10:50.152  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:10:50.154  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:10:50.184  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2020-07-14 21:10:50.205  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:10:50.207  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:10:50.228  INFO 55444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-07-14 21:10:50.808  INFO 55444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de5a9805] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-14 21:10:51.356  INFO 55444 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2020-07-14 21:10:51.376  INFO 55444 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-07-14 21:10:51.622  WARN 55444 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-07-14 21:10:51.681  INFO 55444 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-07-14 21:10:51.681  INFO 55444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2622 ms
+2020-07-14 21:10:52.539  INFO 55444 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[192.168.13.205:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-07-14 21:10:52.652  INFO 55444 --- [cluster-ClusterId{value='5f0daedcaf1df7d89405f781', description='null'}-192.168.13.205:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:17}] to 192.168.13.205:27017
+2020-07-14 21:10:52.656  INFO 55444 --- [cluster-ClusterId{value='5f0daedcaf1df7d89405f781', description='null'}-192.168.13.205:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=192.168.13.205:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 22]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2128888}
+2020-07-14 21:10:52.943  INFO 55444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-14 21:10:53.091  INFO 55444 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:18}] to 192.168.13.205:27017
+2020-07-14 21:10:54.062  INFO 55444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:10:54.704  INFO 55444 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 9090 (http) with context path ''
+2020-07-14 21:10:54.707  INFO 55444 --- [restartedMain] com.yc.Application                       : Started Application in 6.48 seconds (JVM running for 7.219)
+2020-07-14 21:16:50.229  INFO 55444 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 21:16:50.230  INFO 55444 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 21:16:50.251  INFO 55444 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-07-14 21:24:07.478  INFO 30232 --- [restartedMain] com.yc.Application                       : Starting Application on DELKVVV396OXZU3 with PID 30232 (G:\Users\Administrator\workspace\publicBikeServer1\target\classes started by Administrator in G:\Users\Administrator\workspace\publicBikeServer1)
+2020-07-14 21:24:07.482  INFO 30232 --- [restartedMain] com.yc.Application                       : No active profile set, falling back to default profiles: default
+2020-07-14 21:24:07.537  INFO 30232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-14 21:24:07.537  INFO 30232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-14 21:24:09.361  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:24:09.364  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:24:09.394  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2020-07-14 21:24:09.418  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:24:09.421  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:24:09.442  INFO 30232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-07-14 21:24:09.956  INFO 30232 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ead7b45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-14 21:24:10.487  INFO 30232 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2020-07-14 21:24:10.507  INFO 30232 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-07-14 21:24:10.742  WARN 30232 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-07-14 21:24:10.769  INFO 30232 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-07-14 21:24:10.769  INFO 30232 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3231 ms
+2020-07-14 21:24:11.368  INFO 30232 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[192.168.13.205:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-07-14 21:24:11.516  INFO 30232 --- [cluster-ClusterId{value='5f0db1fbaf1df7761851c283', description='null'}-192.168.13.205:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:19}] to 192.168.13.205:27017
+2020-07-14 21:24:11.522  INFO 30232 --- [cluster-ClusterId{value='5f0db1fbaf1df7761851c283', description='null'}-192.168.13.205:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=192.168.13.205:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 22]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=3939998}
+2020-07-14 21:24:11.833  INFO 30232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-14 21:24:12.012  INFO 30232 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:20}] to 192.168.13.205:27017
+2020-07-14 21:24:13.153  INFO 30232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:24:14.013  INFO 30232 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 9090 (http) with context path ''
+2020-07-14 21:24:14.016  INFO 30232 --- [restartedMain] com.yc.Application                       : Started Application in 7.284 seconds (JVM running for 8.199)
+2020-07-14 21:24:23.163  INFO 30232 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 21:24:23.163  INFO 30232 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 21:24:23.177  INFO 30232 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-07-14 21:37:14.554  INFO 41756 --- [restartedMain] com.yc.Application                       : Starting Application on DELKVVV396OXZU3 with PID 41756 (G:\Users\Administrator\workspace\publicBikeServer1\target\classes started by Administrator in G:\Users\Administrator\workspace\publicBikeServer1)
+2020-07-14 21:37:14.557  INFO 41756 --- [restartedMain] com.yc.Application                       : No active profile set, falling back to default profiles: default
+2020-07-14 21:37:14.615  INFO 41756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-14 21:37:14.615  INFO 41756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-14 21:37:15.781  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:37:15.783  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:37:15.814  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2020-07-14 21:37:15.836  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-14 21:37:15.839  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-14 21:37:15.867  INFO 41756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-07-14 21:37:16.344  INFO 41756 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cb1595b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-14 21:37:16.769  INFO 41756 --- [restartedMain] org.xnio                                 : XNIO version 3.3.8.Final
+2020-07-14 21:37:16.788  INFO 41756 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-07-14 21:37:16.987  WARN 41756 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-07-14 21:37:17.019  INFO 41756 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-07-14 21:37:17.020  INFO 41756 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2404 ms
+2020-07-14 21:37:17.523  INFO 41756 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[192.168.13.205:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-07-14 21:37:17.602  INFO 41756 --- [cluster-ClusterId{value='5f0db50daf1df7a31c6504aa', description='null'}-192.168.13.205:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:21}] to 192.168.13.205:27017
+2020-07-14 21:37:17.605  INFO 41756 --- [cluster-ClusterId{value='5f0db50daf1df7a31c6504aa', description='null'}-192.168.13.205:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=192.168.13.205:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 22]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1872443}
+2020-07-14 21:37:17.796  INFO 41756 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-14 21:37:17.914  INFO 41756 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:22}] to 192.168.13.205:27017
+2020-07-14 21:37:18.884  INFO 41756 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-14 21:37:19.501  INFO 41756 --- [restartedMain] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 9090 (http) with context path ''
+2020-07-14 21:37:19.505  INFO 41756 --- [restartedMain] com.yc.Application                       : Started Application in 5.523 seconds (JVM running for 6.108)
+2020-07-14 21:38:28.406  INFO 41756 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-14 21:38:28.407  INFO 41756 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-14 21:38:28.423  INFO 41756 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-07-14 21:38:29.654  INFO 41756 --- [XNIO-2 task-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:23}] to 192.168.13.205:27017
